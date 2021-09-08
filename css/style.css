@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel-layer {
+    padding: 13px;
+    margin: 0px;
+    background-color: #2b2e2e;
+    width: 20%;
+    color: #fff;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url(../searchicon.png);
+    background-position: 7px 6px;
+    background-repeat: no-repeat;
+    background-size: 14px 14px !important;
+    padding: 6px 13px 5px 26px;
+}
+  .list1{
+      margin: 0px;
+      padding: 0px;
+  }
+  .list1 li {
+    list-style: none;
+    clear: both;
+    /* margin: 10px 0; */
+    border-bottom: 1px solid #a3a3a3;
+    /* padding: 10px; */
+    margin-bottom: 11px;
+    padding-bottom: 22px;
+    padding-top: 0;
+    margin-top: 13px;
+}
+.bg1 {
+    background: #525454;
+    height: 42px;
+    padding: 0px !important;
+    margin: 0px !important;
+    border: none !important;
+    margin-top: 10px !important;
+    padding-left: 18px !important;
+}
+.bg1 .fas {
+    float: right !important;
+    margin: 12px;
+    margin-right: 0;
+}
+  .bg1 img{
+      float: left;
+  }
+  .bg1 h6{
+      padding: 13px 10px;
+  }
+  .list1 h6{
+      float: left;
+      margin: 0px;
+  }
+  .list1 .fas {
+    float: left;
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 18px !important;
+}
+.inner_list {
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    justify-content: end;
+}
+.inner_list .fas {
+    font-weight: normal !important;
+    font-size: 12px !important;
+    padding: 0px 12px;
+    padding-left: 0px !important;
+}
+.inner_list li {
+    margin: 0px !important;
+    padding: 0px !important;
+    border-bottom: none;
+}
+.sub_list {
+    margin: 0px 41px;
+    padding: 0px;
+    margin-right: 0;
+}
+.sub_list li {
+    margin: 0px !important;
+    padding: 4px !important;
+    margin-bottom: 10px !important;
+    font-size: 11px;
+}
+.sub_list .fas {
+    padding: 0px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-left: 0px !important;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .panel-layer {
+        padding: 13px;
+        margin: 0px;
+        background-color: #2b2e2e;
+        width: 90%;
+        color: #fff;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .panel-layer {
+        padding: 13px;
+        margin: 0px;
+        background-color: #2b2e2e;
+        width:34%;
+        color: #fff;
+    }
+
+}
